@@ -1,0 +1,99 @@
+/* SELETORES */
+
+/* seletor geral */
+*{
+    align-items: center;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+/* seletor por tag */
+h1{
+    color:red;
+    font-family: 'Gemunu Libre', sans-serif;
+    /* Qual fonte eu quero colocar */
+    
+    font-weight: lighter;
+    /* weight largura */
+
+    font-size: medium; 
+    /* Tamanho da fonte */
+
+    font-style: italic;
+    /* efeitos (italico, negrito, etc) */
+
+    line-height: 10px;
+    /* altura das linha */
+
+    letter-spacing: 5px;
+    /* distancia das letras entre si */
+
+    word-spacing: normal;
+    /* espaçamento entre palavras */
+
+    text-align: center;
+    /* alinhamento do texto */
+
+    text-transform: lowercase;
+    /* efeito no texto, exemplo todas as letras maiusculas, toda letra no inicio da palavra maiuscula */
+
+    text-decoration: double;
+    /* responsavel por dar um efeito no texto como m todo, exemplo, linha superior ou inferior */
+
+    text-shadow: 10px 5px 10px purple;
+    /* sombra: sombra na horizontal, sombra na vertical, quão esfumaçada ou sólida, cor da sombra */
+
+}
+
+/* seletor por id */
+#h2{
+    color:aqua
+}
+
+/* seletor por classe */
+.txt{
+    color: blue;
+}
+
+/* aplicando o mesmo estilo duas coisas */
+#h1, #h2, button{
+    color: blueviolet;
+}
+
+
+/* CORES
+RGB (rgb(0, 0, 0))
+Hexadecimal (#FFF )
+
+https://color.adobe.com/pt/create/color-wheel
+https://coolors.co/
+
+extensão do google chrome - ColorZilla
+*/
+
+
+/* 
+    UNIDADES DE MEDIDAS
+    
+    -> ABSOLUTAS
+        px (pixels)
+        in (inches/polegadas)
+        cm / mm (centimetro/milimetro)
+
+    
+    -> RELATIVAS
+        % - calcula o tamanho relativo ao elemento pai
+        vw - (ViewWidth) 1vw é 1% da largura da janela do navegador
+        vh - (ViewHeight) 1vh é 1% da altura da janela do navegador
+        em - é uma unidade relativa ao elemento pai
+        rem - é uma unidade relativa ao elemento raiz
+
+*/
+
+/* 
+    TEXTOS
+
+    https://fonts.google.com/about - Escolher fontes neste site
+    Pegar o link gerado após escolher as fontes e colocar no Head do html
+    Colocar também a rule dele no CSS
+
+*/
