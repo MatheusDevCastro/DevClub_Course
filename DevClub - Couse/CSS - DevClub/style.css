@@ -4,6 +4,10 @@
 *{
     align-items: center;
     font-family: 'Gemunu Libre', sans-serif;
+    box-sizing: border-box;
+    /* content-box - sempre soma os valores de tudo adicionado, exemplo tamanho de 100px + border de 10pc total 110px
+        border box - define-se o tamanho total de algo, e o que inserido se adapta dentro deste tamanho toral    
+    */
 }
 
 /* seletor por tag */
@@ -96,4 +100,43 @@ extensão do google chrome - ColorZilla
     Pegar o link gerado após escolher as fontes e colocar no Head do html
     Colocar também a rule dele no CSS
 
+*/
+
+/* 
+    DISPLAY
+
+        -> Block
+        -> Inline
+        -> Inline-Block
+        
+        -> Grid
+        -> Flex
+
+
+        *Block
+            Vem como padrão: div, section, p, h1, h2, ul, li, aricle...
+                - Ocupa 100% da largura do elemento pai
+                - Sempre ocupa toda sua linha
+                - Altura definida de acordo com o conteúdo
+                - Podemos definir height e width
+                - Podemos definir valores de margin
+
+
+        Inline
+            Vem como padrão a, span, b, i...
+                - Elementos em linha
+                - Não permite alterar Heigth e Width
+                - Não podemos definir valores de margin top e botton
+                - Ganha o comportamento de uma palavra
+
+        Inline-Block
+                -Elementos em linha, com caracteristicas do block (definição de altura/largura, margin/padding entre outros)
+*/
+
+
+
+/* 
+    Softwares para desenvolver site (front)
+    - Figma
+    - Adobe XD
 */
