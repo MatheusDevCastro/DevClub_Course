@@ -140,3 +140,6 @@ extensão do google chrome - ColorZilla
     - Figma
     - Adobe XD
 */
+*{
+    display: inline-block;
+}
