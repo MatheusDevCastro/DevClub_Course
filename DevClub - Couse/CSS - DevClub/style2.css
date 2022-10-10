@@ -1,0 +1,79 @@
+h1{
+    color: aqua !important;
+    /* quebra o efeito cascata dando prioridade para o que posui a tag !important */
+    color: brown;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 200vh;
+    width: 200vh;
+}
+
+.div-dad{
+    height: 350px;
+    width: 350px;
+    background-color: blueviolet;
+}
+.div-dad{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+
+/* 
+    POSITION
+
+        -> Static (padrão) - não aceita valores de top, bottom, right e left.
+        -> Fixed - fixa o elemento na tela, podemos mecher a barra de rolagem que a mesma fai ficar na tela sobre qualquer coisa que esteja em baixo.
+        -> Sticky - age como um adesivo, fixa o elemento só onde eu determinar, determino uma altura maxima do topo, o que for menor q isso ele se movimenta, quando chega na medida ee fica fixado.
+        -> Relative - posição relativa a posição inicial dele.
+        -> Absolute - posição absoluta(fixa) a algum elemento ou página
+                                            - Se não tiver pai / pai for static -> Posiciona referente a página
+                                            - Se o pai NÂO for static -> Posiciona referente ao pai
+
+
+    Propriedades:
+        - Top
+        - Bottom
+        - Left
+        - Right
+*/
+
+/* 
+    PSEUDO ELEMENTOS
+
+        -> Nada mais é do que uma estilização de uma caracteristica dentro de um elemento, por exemplo: é possivel
+            estilizar um placeholder:
+                input::placeholder{
+                    color: #FF1396
+                } 
+*/
+
+/* 
+        PSEUDO CLASSES
+
+                :active  ➝ quando o elemente está ativo, ou seja, pressionado.
+                :visited  ➝ seleciona o link que foi visitado.
+                :hover  ➝ quando o mouse passa em cima do elemento.
+                :checked  ➝ usado em radio / checkbox / select.
+                :disabled  ➝ elemento desabilitado (button ou input).
+                :enabled  ➝ elemento está habilitado.
+                :focus  ➝ é aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento.
+                :read-only  ➝ seleciona input ou textaread que são apenas leitura.
+                :empty  ➝ elemento que não tem filho.
+
+                :first-child  ➝ primeiro filho / ex.: primeira "li" de uma "ul" / primeiro span de uma div.
+                :first-of-type  ➝ primeiro elemento de seu tipo entre os filhos de seu elemento pai.
+                :last-child  ➝ ultimo filho.
+                :last-of-type ➝ último elemento de seu tipo entre os filhos de seu elemento pai.
+                :not() ➝ estiliza os elementos, exceto o que esta dentro do ().
+                :nth-child() ➝ seleciona o elemento baseado em sua posição. Ex.: :nth-child(3).
+                :nth-last-child() ➝ seleciona o elemento baseado em sua posição, contando de trás para frente.
+*/
+
+*{
+    color: blue
+}
